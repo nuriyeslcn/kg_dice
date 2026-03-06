@@ -158,6 +158,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "gseapy" },
     { name = "lxml" },
+    { name = "mathplot" },
     { name = "networkx" },
     { name = "pandas" },
     { name = "scikit-learn" },
@@ -167,6 +168,7 @@ dependencies = [
 requires-dist = [
     { name = "gseapy", specifier = ">=1.1.11" },
     { name = "lxml", specifier = ">=6.0.2" },
+    { name = "mathplot", specifier = ">=0.1" },
     { name = "networkx", specifier = ">=3.6.1" },
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
@@ -417,6 +419,12 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/fe/1a/b248b355834c8e32614650b8008c69ffeb0ceb149c793961dd8c0b991bb3/lxml-6.0.2-cp314-cp314t-win_amd64.whl", hash = "sha256:252a22982dca42f6155125ac76d3432e548a7625d56f5a273ee78a5057216eca", size = 4406837, upload-time = "2025-09-22T04:03:34.027Z" },
     { url = "https://files.pythonhosted.org/packages/92/aa/df863bcc39c5e0946263454aba394de8a9084dbaff8ad143846b0d844739/lxml-6.0.2-cp314-cp314t-win_arm64.whl", hash = "sha256:bb4c1847b303835d89d785a18801a883436cdfd5dc3d62947f9c49e24f0f5a2c", size = 3822205, upload-time = "2025-09-22T04:03:36.249Z" },
 ]
+
+[[package]]
+name = "mathplot"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/59/89/b9b01bdc8ade107dabfc47d03746c7dbab012655253b79aa6a28ab210dd8/mathplot-0.1.tar.gz", hash = "sha256:b44ae00b6cacfe1834f560ad77effc5dc331d970b6a893e498519ddc46fbea57", size = 3194, upload-time = "2020-04-03T22:41:26.786Z" }
 
 [[package]]
 name = "matplotlib"
